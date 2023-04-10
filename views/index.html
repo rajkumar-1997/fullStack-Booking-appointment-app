@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <h2>Booking App </h2>
+        <div  class="form-box">
+           <h3> Add User</h3>
+           
+            <form >
+                
+                <Div class="input-box">
+                    <label for="name"> Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+                    <span class="ficon"><ion-icon name="person-outline"></ion-icon></span>
+
+                </Div>
+                <Div class="input-box">
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter Your Email">
+                    <span class="ficon"><ion-icon name="mail-outline"></ion-icon></span>
+
+                </Div>
+                <Div class="input-box">
+                    <label for="number"> Phone Number</label>
+                    <input type="text" id="number" name="number" required  placeholder="Enter Your Phone Number">
+                    <span class="ficon"><ion-icon name="call-outline"></ion-icon></span>
+
+                </Div>
+
+                <Div class="input-box">
+                    <label for="time">Date</label>
+                    <input type="date" id="time" name="time" required>
+                    
+
+                </Div>
+
+                <button type="submit" id="adddata" class="btn">Submit</button>
+                <button type="submit"  class="btnupdate">Update</button>
+
+            </form>
+
+        </div>
+    </div>
+    <div class="userdatabox">
+
+        <ul id="booking-data">
+           
+        </ul>
+    </div>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script   src="/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js" integrity="sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
